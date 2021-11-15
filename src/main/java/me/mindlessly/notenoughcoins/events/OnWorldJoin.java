@@ -24,7 +24,7 @@ public class OnWorldJoin {
 				public void run() {
 					Toggle.flip(true);
 				}
-			}, 2000);
+			}, 1000);
 		} else {
 			Toggle.updateConfig(true);
 		}
@@ -35,7 +35,7 @@ public class OnWorldJoin {
 					Utils.checkForUpdate();
 					Main.checkedForUpdate = true;
 				}
-			}, 2000);
+			}, 5000);
 		}
 	}
 }
